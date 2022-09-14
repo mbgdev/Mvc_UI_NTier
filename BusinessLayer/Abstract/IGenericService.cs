@@ -8,7 +8,7 @@ namespace BusinessLayer.Abstract
 {
     public interface IGenericService<T>
     {
-        void TAdd(T item);
+        void TInsert(T item);
 
         void TDelete(T item); 
 

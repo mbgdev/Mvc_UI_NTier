@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
-    public interface ICategoryService:IGenericService<Category>
+    public interface ICategoryService : IGenericService<Category>
     {
+        void ChangeStatusToTrue();
+
     }
 }
- 
